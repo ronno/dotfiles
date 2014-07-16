@@ -1,0 +1,47 @@
+urxvt*font: xft:Terminus
+urxvt*boldFont: xft:Terminus
+urxvt*scrollBar: False
+
+! Solarized color scheme for the X Window System
+!
+! http://ethanschoonover.com/solarized
+
+urxvt*background: #fdf6e3
+urxvt*foreground: #839496
+urxvt*fading: 0
+urxvt*fadeColor: #fdf6e3
+urxvt*cursorColor: #586e75
+urxvt*pointerColorBackground: #93a1a1
+urxvt*pointerColorForeground: #586e75
+ 
+!! black dark/light
+urxvt*color0: #073642
+urxvt*color8: #fdf6e3
+ 
+!! red dark/light
+!!*color1: #dc322f
+!!*color9: #cb4b16
+ 
+!! green dark/light
+!!*color2: #859900
+urxvt*color10: #93a1a1
+ 
+!! yellow dark/light
+!!*color3: #b58900
+urxvt*color11: #839496
+ 
+!! blue dark/light
+!!*color4: #268bd2
+urxvt*color12: #657b83
+ 
+!! magenta dark/light
+!!*color5: #d33682
+!!*color13: #6c71c4
+ 
+!! cyan dark/light
+!!*color6: #2aa198
+urxvt*color14: #586e75
+ 
+!! white dark/light
+urxvt*color7: #839496
+urxvt*color15: #002b36
