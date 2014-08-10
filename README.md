@@ -1,13 +1,7 @@
 dotfiles
 ========
 
-This repository contains some configuration files and couple of personal scripts.
-
-clem.sh uses xsetroot to alter dwm's status bar and makes it display the currently playing track in Clementine along with its artist. btest.sh does uses the same technique to display the status of my laptop's battery (Charging with percentage, Discharging with percentage remaining, or full). Also included in my ~/.xinitrc is a little one-liner that spits out the date and time.
-
-When all is said and done, it looks something like this.
-
-<img src="http://i.imgur.com/Git6ys1.png" />
+Contained within this repository are my configuration files for dwm, vim, Xresources, and my ~/.xinitrc.
 
 License
 =======
