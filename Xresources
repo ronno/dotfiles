@@ -2,46 +2,53 @@ urxvt*font: xft:Terminus
 urxvt*boldFont: xft:Terminus
 urxvt*scrollBar: False
 
-! Solarized color scheme for the X Window System
-!
-! http://ethanschoonover.com/solarized
+! Base16 Eighties
+! Scheme: Chris Kempson (http://chriskempson.com)
 
-urxvt*background: #fdf6e3
-urxvt*foreground: #839496
-urxvt*fading: 0
-urxvt*fadeColor: #fdf6e3
-urxvt*cursorColor: #586e75
-urxvt*pointerColorBackground: #93a1a1
-urxvt*pointerColorForeground: #586e75
- 
-!! black dark/light
-urxvt*color0: #073642
-urxvt*color8: #fdf6e3
- 
-!! red dark/light
-!!*color1: #dc322f
-!!*color9: #cb4b16
- 
-!! green dark/light
-!!*color2: #859900
-urxvt*color10: #93a1a1
- 
-!! yellow dark/light
-!!*color3: #b58900
-urxvt*color11: #839496
- 
-!! blue dark/light
-!!*color4: #268bd2
-urxvt*color12: #657b83
- 
-!! magenta dark/light
-!!*color5: #d33682
-!!*color13: #6c71c4
- 
-!! cyan dark/light
-!!*color6: #2aa198
-urxvt*color14: #586e75
- 
-!! white dark/light
-urxvt*color7: #839496
-urxvt*color15: #002b36
+#define base00 #2d2d2d
+#define base01 #393939
+#define base02 #515151
+#define base03 #747369
+#define base04 #a09f93
+#define base05 #d3d0c8
+#define base06 #e8e6df
+#define base07 #f2f0ec
+#define base08 #f2777a
+#define base09 #f99157
+#define base0A #ffcc66
+#define base0B #99cc99
+#define base0C #66cccc
+#define base0D #6699cc
+#define base0E #cc99cc
+#define base0F #d27b53
+
+urxvt*.foreground:   base05
+urxvt*.background:   base00
+urxvt*.cursorColor:  base05
+
+urxvt*.color0:       base00
+urxvt*.color1:       base08
+urxvt*.color2:       base0B
+urxvt*.color3:       base0A
+urxvt*.color4:       base0D
+urxvt*.color5:       base0E
+urxvt*.color6:       base0C
+urxvt*.color7:       base05
+
+urxvt*.color8:       base03
+urxvt*.color9:       base08
+urxvt*.color10:      base0B
+urxvt*.color11:      base0A
+urxvt*.color12:      base0D
+urxvt*.color13:      base0E
+urxvt*.color14:      base0C
+urxvt*.color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+urxvt*.color16:      base09
+urxvt*.color17:      base0F
+urxvt*.color18:      base01
+urxvt*.color19:      base02
+urxvt*.color20:      base04
+urxvt*.color21:      base06
