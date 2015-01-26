@@ -6,7 +6,6 @@ while true; do
   	sleep 1s
 done &
 Builds/scripts/wallpaper.sh &
-pulseaudio --start &
 lxpolkit &
 devmon &
 xbindkeys &
