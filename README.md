@@ -1,7 +1,8 @@
 dotfiles
 ========
 
-Contained within this repository are my configuration files for dwm, vim, Xresources, and my ~/.xinitrc.
+Contained within this repository are my configuration files for dwm and vim, as
+well as my Xresources and xinitrc.
 
 License
 =======
